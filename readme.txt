@@ -2,14 +2,14 @@
 Contributors: alxmedia
 Requires at least: 5.0
 Tested up to: 5.0
-Version: 1.0.1
+Version: 1.0.2
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0
 Tags: blog, one-column, two-columns, right-sidebar, left-sidebar, custom-colors, custom-menu, featured-images, flexible-header, full-width-template, post-formats, sticky-post, theme-options, threaded-comments, translation-ready, custom-logo, custom-header, custom-background
 
 == Description ==
 
-Indite is a flexible personal blog theme with plenty of options. It is optimized for all devices and built to work with blocks. You can pick accent colors, set sidebar to the left or right and choose website max-width with a few clicks.
+Indite is a flexible personal blog theme with plenty of options. It is optimized for all devices and built to work with blocks. You can pick accent colors, set sidebar to the left or right and choose website max-width with a few clicks. Demo: http://demo.alx.media/x/?theme=Indite
 
 == Installation ==
 
@@ -71,6 +71,9 @@ Content images
 2. https://stocksnap.io/photo/3VLGQNBZP2 - CC0 1.0 Universal (CC0 1.0)
 
 == Changelog ==
+
+= 1.0.2 - 2019-08-11 =
+* Updated theme description
 
 = 1.0.1 - 2019-08-04 =
 * Improved responsive css for mobile
