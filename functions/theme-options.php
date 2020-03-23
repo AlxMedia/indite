@@ -24,7 +24,7 @@ Kirki::add_section( 'reviewlink', array(
 	'panel'       => 'options',
 	'type'        => 'link',
 	'button_text' => esc_html__( 'Write a Review', 'indite' ),
-	'button_url'  => 'https://wordpress.org/support/theme/indite/reviews/?filter=5#new-post',
+	'button_url'  => 'https://wordpress.org/support/theme/indite/reviews/#new-post',
 	'priority'    => 1,
 ) );
 
