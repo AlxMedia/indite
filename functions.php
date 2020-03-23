@@ -199,7 +199,7 @@ if ( ! function_exists( 'indite_styles' ) ) {
 	
 	function indite_styles() {
 		wp_enqueue_style( 'indite-style', get_stylesheet_uri() );
-		if ( get_theme_mod('responsive','on') =='on' ) { wp_enqueue_style( 'indite-responsive', get_template_directory_uri().'/responsive.css' ); }
+		wp_enqueue_style( 'indite-responsive', get_template_directory_uri().'/responsive.css' );
 		wp_enqueue_style( 'indite-font-awesome', get_template_directory_uri().'/fonts/all.min.css' );
 	}
 	
