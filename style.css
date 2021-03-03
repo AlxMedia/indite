@@ -700,7 +700,8 @@ body { background: #eee; }
 .toggle-search .svg-icon { fill: #333; margin: 0 auto; }
 .toggle-search #svg-close { display: none; }
 .toggle-search.active #svg-search { display: none; }
-.toggle-search.active #svg-close { display: block; }
+.toggle-search.active #svg-close { display: block; fill: rgba(0,0,0,0.4); }
+.toggle-search:focus #svg-close { fill: #333; }
 
 
 /* ------------------------------------------------------------------------- *
