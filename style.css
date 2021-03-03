@@ -851,9 +851,9 @@ body { background: #eee; }
 	.nav-menu:not(.mobile) button { background: rgba(0,0,0,0.06); }
 	.nav-menu:not(.mobile) button { margin: 6px 0 10px 6px; }
 	.col-2cr .nav-menu:not(.mobile) .menu ul.active,
-	.col-2cr .nav-menu:not(.mobile) .menu li.hover > ul { width: 180px; }
-	.col-2cr .nav-menu:not(.mobile) .menu ul .sub-menu { left: 200px; }
-	.col-2cr .nav-menu:not(.mobile) .menu li.menu-item-has-children.focus > ul {	min-width: 180px; max-width: 180px; }
+	.col-2cr .nav-menu:not(.mobile) .menu li.hover > ul { width: 200px; }
+	.col-2cr .nav-menu:not(.mobile) .menu ul .sub-menu { left: 220px; }
+	.col-2cr .nav-menu:not(.mobile) .menu li.menu-item-has-children.focus > ul { min-width: 200px; max-width: 200px; }
 	.nav-menu:not(.mobile) .menu > li { width: 100%; margin: 0; }
 	.nav-menu:not(.mobile) .menu > li:hover > span { background: #f2f2f2; }
 	.col-2cr .nav-menu:not(.mobile) .menu > li > span button .svg-icon { transform: rotate(-90deg); margin-bottom: 2px; }
