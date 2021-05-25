@@ -92,8 +92,10 @@ add_action( 'after_setup_theme', 'indite_setup' );
 
 /*  Custom navigation
 /* ------------------------------------ */
-add_action( 'wp', function() {
+if ( ! class_exists( '\Indite\Nav' ) ) {
 	require_once 'functions/nav.php';
+}
+add_action( 'wp', function() {
 	$nav = new \Indite\Nav();
 	$nav->enqueue(
 		[
